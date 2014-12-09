@@ -1,0 +1,44 @@
+{
+    "name": "symfony2admingenerator/legacy-generator-templates-bundle",
+    "minimum-stability": "stable",
+    "description": "Legacy templates for Symfony2 Admingenerator",
+    "keywords": [
+        "admin",
+        "generator",
+        "templates",
+        "legacy"
+    ],
+    "type": "symfony-bundle",
+    "homepage": "http://symfony2admingenerator.org/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cedric LOMBARDOT",
+            "email": "cedric.lombardot@gmail.com"
+        },
+        {
+            "name": "Symfony Community",
+            "homepage": "http://github.com/symfony2admingenerator/LegacyGeneratorTemplatesBundle/contributors"
+        }
+    ],
+    "require": {
+        "symfony2admingenerator/generator-bundle": "dev-master",
+        "robloach/component-installer": "~0.0.11",
+        "afarkas/html5shiv": "~3.7",
+        "components/jquery": "1.9.1",
+        "components/jqueryui": "1.11.0",
+        "components/bootstrap": "~3.0",
+        "components/font-awesome": "~4.0"
+    },
+    "target-dir": "Admingenerator/GeneratorBundle",
+    "autoload": {
+        "psr-4": {
+            "Admingenerator\\LegacyGeneratorTemplatesBundle\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
